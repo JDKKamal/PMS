@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/small"
+    app:cardBackgroundColor="@color/colorCardViewBackground"
+    app:cardCornerRadius="@dimen/extraTiny"
+    app:cardElevation="@dimen/extraTiny"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/appTvReplaceProduct"
+                style="@style/TextRegularSizeSmall"
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="@dimen/small"
+                android:text="@string/replace_product"
+                android:textColor="@color/colorLink" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/appTvProductId"
+                    style="@style/TextSemiBoldSizeRegular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:padding="@dimen/small"
+                    android:text="@string/product_id"
+                    android:textColor="@color/colorBlack" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/appTvDetails"
+                    style="@style/TextRegularSizeSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/small"
+                    android:text="@string/details"
+                    android:textColor="@color/colorLink" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/appIvImagePurchase"
+                        android:layout_width="@dimen/dimen_product"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/colorPrimary"
+                        android:padding="@dimen/extraTiny" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="@dimen/huge"
+                        android:layout_height="@dimen/huge"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/small">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvCompanyName"
+                            style="@style/TextSemiBoldSizeRegular"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@string/company_name"
+                            android:textColor="@color/colorBlack" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvProductName"
+                            style="@style/TextRegularSizeMedium"
+                            android:ellipsize="end"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/small"
+                            android:layout_weight="1"
+                            android:maxLines="1"
+                            android:text="@string/product_name"
+                            android:textColor="@color/colorBlack" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvPrice"
+                            style="@style/TextRegularSizeMedium"
+                            android:layout_width="match_parent"
+                            android:ellipsize="end"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/small"
+                            android:maxLines="1"
+                            android:text="@string/price"
+                            android:textColor="@color/colorBlack" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/small">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvOrderID"
+                            style="@style/TextSemiBoldSizeRegular"
+                            android:layout_width="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_height="wrap_content"
+                            android:text="@string/order_id"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/medium_text" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvStatus"
+                            style="@style/TextRegularSizeRegular"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="@dimen/large"
+                            android:text="@string/status"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorCheckBoxActive" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvTotalPrice"
+                            style="@style/TextRegularSizeMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ Price"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/medium_text" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/appTvItems"
+                            style="@style/TextRegularSizeRegular"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/small"
+                            android:background="@drawable/style_app_edittext_add_to_cart"
+                            android:padding="@dimen/small"
+                            android:text="Items"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorCheckBoxActive" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
+

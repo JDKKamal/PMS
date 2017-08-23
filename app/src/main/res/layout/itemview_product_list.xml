@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:elevation="0dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small">
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/appCbCompany"
+            style="@style/TextRegularSizeSmall"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/small"
+            android:text="@string/select_company"
+            android:textColor="@color/colorCheckBoxTextNormal"
+            android:theme="@style/CheckBoxTheme" />
+
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Product Management System</string>
+
+    <string name="monday_name_short">M</string>
+    <string name="tuesday_name_short">T</string>
+    <string name="wednesday_name_short">W</string>
+    <string name="thursday_name_short">T</string>
+    <string name="friday_name_short">F</string>
+    <string name="saturday_name_short">S</string>
+    <string name="sunday_name_short">S</string>
+
+    <string-array name="examples">
+        <item>Text number 1</item>
+        <item>This is a different text</item>
+        <item>WOW many texts!</item>
+    </string-array>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_add_to_cart">Add To Cart</string>
+    <string name="action_order_history">Order History</string>
+    <string name="action_purchase_items">Purchase Items</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="action_about_us">About US</string>
+    <string name="action_help">Help</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_search">Search</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_add_to_cart">Add To Cart</string>
+    <string name="title_purchase_items">Purchase Items</string>
+    <string name="title_contact_us">Contact US</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_about_us">About US</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_help">Help</string>
+    <string name="title_profile_edit">Profile Edit</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_payment">Payment</string>
+    <string name="title_order">Order</string>
+    <string name="title_order_history">Order History</string>
+    <string name="title_forgot_password">Forgot password</string>
+    <string name="title_register_user">Register User</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_otp">Verify OTP</string>
+    <string name="title_product">Product</string>
+    <string name="title_country">Country</string>
+    <string name="title_product_details">Product Details</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_buy">Buy</string>
+
+    <string name="title_socket">Socket</string>
+
+    <string name="sy_rupee">₹</string>
+    <string name="text_order">ORDER</string>
+    <string name="text_grand_total">GRAND TOTAL</string>
+    <string name="text_payment">PAYMENT</string>
+    <string name="text_submit">SUBMIT</string>
+
+    <!--    ERROR MESSAGE      -->
+    <string name="msg_connection_time_out">Connection time out, please try again</string>
+    <string name="no_internet_message">Internet connection is not available!</string>
+    <string name="msg_activity_not_found">No activity found to handle this action.</string>
+    <string name="msg_server_not_responding">Server is not responding, please try again</string>
+    <string name="msg_select_one_item">Select one item</string>
+    <string name="msg_order_not_select">Order not select</string>
+    <string name="msg_empty_email">Enter email</string>
+    <string name="msg_empty_password">Enter password</string>
+    <string name="msg_empty_confirm_password">Enter confirm password</string>
+    <string name="msg_empty_username">Enter username</string>
+    <string name="msg_empty_mobile">Enter mobile</string>
+    <string name="msg_read_file_no">File not read</string>
+    <string name="msg_otp_verify_success">OTP verify successful</string>
+
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_register">REGISTER</string>
+    <string name="or">OR</string>
+    <string name="status">STATUS</string>
+    <string name="delete">DELETE</string>
+    <string name="details">DETAILS</string>
+    <string name="replace_product">REPLACE PRODUCT</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="items">Items</string>
+    <string name="order">ORDER</string>
+    <string name="order_id">Order ID</string>
+    <string name="date">Date</string>
+    <string name="no_data">No Data</string>
+    <string name="courier_details">Courier Details</string>
+    <string name="courier_name">Courier Name</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="select_items">Select Items</string>
+    <string name="timer">00:00</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="company_name">Company Name</string>
+    <string name="category_name">Category Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_id">Product ID</string>
+    <string name="stock">Stock</string>
+    <string name="price">₹ Price</string>
+    <string name="discount_discount">Discount %</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="new_product">New Product (0)</string>
+    <string name="notification_type">Notification Type</string>
+    <string name="notification_id">Notification Id</string>
+    <string name="notification_device_id">Device ID</string>
+    <string name="reviews_reason">Reason</string>
+    <string name="description">Description</string>
+    <string name="use_another_debit_card">Use Another Debit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="valid_up_to">Valid up to</string>
+    <string name="cvv_code">CVV code</string>
+    <string name="account_no">Account No.</string>
+
+    <string name="select_company">Select company</string>
+    <string name="select_product">Select product</string>
+    <string name="select_country">Select country</string>
+
+    <!--    HINT      -->
+    <string name="hint_username"> Username </string>
+    <string name="hint_email"> Email </string>
+    <string name="hint_password"> Password </string>
+    <string name="hint_confirm_password"> Confirm password </string>
+    <string name="hint_current_password"> Current Password </string>
+    <string name="hint_new_password"> New password </string>
+    <string name="hint_new_confirm_password"> New confirm password </string>
+    <string name="hint_mobile"> Mobile </string>
+    <string name="hint_country"> Country </string>
+    <string name="hint_search"> Search </string>
+    <string name="card_number"> Card Number </string>
+    <string name="hint_mm"> MM </string>
+    <string name="hint_yy"> YY </string>
+    <string name="hint_cvv"> CVV </string>
+
+
+    <!--    BUTTON      -->
+    <string name="btn_login"> LOGIN </string>
+    <string name="btn_register_user"> REGISTER USER </string>
+    <string name="btn_forgot_password"> FORGOT PASSWORD </string>
+    <string name="btn_change_password"> CHANGE PASSWORD </string>
+    <string name="btn_resend"> RESEND </string>
+    <string name="btn_submit"> SUBMIT </string>
+    <string name="btn_verify"> VERIFY </string>
+    <string name="btn_cancel"> CANCEL </string>
+    <string name="btn_payment"> PAYMENT </string>
+    <string name="btn_buy"> BUY </string>
+
+    <string name="dialog_exist"> Exit </string>
+    <string name="dialog_cancel"> Cancel </string>
+    <string name="dialog_message_app_exist"> Are you want to exit </string>
+
+    <!--    FONT      -->
+    <string name="regular_font">fonts/aileron_regular.otf</string>
+    <string name="light_font">fonts/aileron_light.otf</string>
+    <string name="semibold_font">fonts/aileron_semibold.otf</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

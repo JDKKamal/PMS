@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dimen_margin_medium">@dimen/_16sdp</dimen>
+    <dimen name="dimen_profile">@dimen/_60sdp</dimen>
+    <dimen name="dimen_profile_edit">@dimen/_95sdp</dimen>
+    <dimen name="dimen_product">@dimen/_80sdp</dimen>
+    <dimen name="dimen_login">@dimen/_90sdp</dimen>
+    <dimen name="dimen_no_data">@dimen/_80sdp</dimen>
+    <dimen name="dimen_seekbar">25dp</dimen>
+    <dimen name="dimen_vp">@dimen/_150sdp</dimen>
+    <dimen name="dimen_viewpager">@dimen/_180sdp</dimen>
+
+    //Margin and Padding
+    <dimen name="extraTiny">@dimen/_1sdp</dimen>
+    <dimen name="tiny">@dimen/_3sdp</dimen>
+    <dimen name="small">@dimen/_5sdp</dimen>
+    <dimen name="regularSmall">@dimen/_10sdp</dimen>
+    <dimen name="regular">@dimen/_12sdp</dimen>
+    <dimen name="medium">@dimen/_15sdp</dimen>
+    <dimen name="large">@dimen/_17sdp</dimen>
+    <dimen name="extraLarge">@dimen/_25sdp</dimen>
+    <dimen name="hugeSmall">@dimen/_30sdp</dimen>
+    <dimen name="huge">@dimen/_35sdp</dimen>
+    <dimen name="big">@dimen/_45sdp</dimen>
+    <dimen name="bigLarge">@dimen/_55sdp</dimen>
+    <dimen name="sdp_145">@dimen/_145sdp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+
+    //Text Sizes
+    <!--<dimen name="tiny_text">8sp</dimen>-->
+    <!--<dimen name="tiny_small_text">10sp</dimen>-->
+    <!--<dimen name="small_text">12sp</dimen>-->
+    <!--<dimen name="regular_text">14sp</dimen>-->
+    <!--<dimen name="medium_text">16sp</dimen>-->
+    <!--<dimen name="large_text">20sp</dimen>-->
+    <!--<dimen name="large_medium_text">26sp</dimen>-->
+    <!--<dimen name="extraLarge_text">36sp</dimen>-->
+
+    <dimen name="xxtiny_text">@dimen/_6sdp</dimen>
+    <dimen name="xtiny_text">@dimen/_8sdp</dimen>
+    <dimen name="tiny_text">@dimen/_9sdp</dimen>
+    <dimen name="small_text">@dimen/_11sdp</dimen>
+    <dimen name="medium_text">@dimen/_12sdp</dimen>
+    <dimen name="regular_text">@dimen/_13sdp</dimen>
+
+    <dimen name="large_text">@dimen/_17sdp</dimen>
+    <dimen name="large_medium_text">@dimen/_19sdp</dimen>
+    <dimen name="extraLarge_text">@dimen/_21sdp</dimen>
+    <dimen name="big_text">@dimen/_23sdp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

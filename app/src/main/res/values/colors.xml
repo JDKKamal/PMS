@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorTint">#828282</color>
+    <color name="colorNormalText">#414141</color>
+    <color name="colorSecondaryText">#757575</color>
+
+    <color name="colorDeliveryCharge">#D8A019</color>
+    <color name="colorLink">#1986EF</color>
+
+    <!-- RATTING -->
+    <color name="colorRattingActive">#3F51B5</color>
+    <color name="colorRattingNormal">#414141</color>
+
+    <!-- DRAG & DROP -->
+    <color name="colorDragSelect">#Afff</color>
+    <color name="colorDropSelect">#FFFFFF</color>
+
+    <color name="colorFloatingBackground">#3F51B5</color>
+    <color name="colorCalendarSelectBackground">#FFCA28</color>
+
+    <color name="colorVerified">#1BAF3B</color>
+    <color name="colorVerify">#F85C5D</color>
+
+    <color name="colorHintEditText">#828282</color>
+    <color name="colorNormalEditText">#414141</color>
+    <color name="colorLineNormal">#303F9F</color>
+    <color name="colorBorderEditText">#828282</color>
+
+    <color name="colorSettingMenu">#3F51B5</color>
+    <color name="colorFloating">#3F51B5</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorCardViewBackground">#FFFFFF</color>
+
+    <color name="colorCheckBoxActive">#1BAF3B</color>
+    <color name="colorCheckBoxNormal">#414141</color>
+    <color name="colorCheckBoxTextActive">#1BAF3B</color>
+    <color name="colorCheckBoxTextNormal">#414141</color>
+    <color name="colorCheckBoxTextRed">#F85C5D</color>
+
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorTabBackground">#FFFFFF</color>
+    <color name="colorTabTextNormal">#3F51B5</color>
+    <color name="colorTabTextSelect">#3F51B5</color>
+    <color name="colorTabIndicator">#3F51B5</color>
+    <color name="colorTabLine">#3F51B5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#F85C5D</color>
+
+    <!-- DiscreteSeekBar -->
+    <color name="dsb_progress_color">#ff009688</color>
+    <color name="dsb_track_color">#ff939393</color>
+    <color name="dsb_disabled_color">#66939393</color>
+    <color name="dsb_ripple_color_pressed">#77939393</color>
+    <color name="dsb_ripple_color_focused">#99999999</color>
+
+    <color name="redSelector">#F85C5D</color>
+    <color name="yellow">#FFCA28</color>
+
+    <color name="whiteSelector">#Afff</color>
+    <color name="lightGray">#9dc9f1</color>
+
+    <color name="grey">#828282</color>
+    <color name="lightBlue">#e8f3fd</color>
+    <color name="titleBlue">#1986ef</color>
+    <color name="StrikeText">#737373</color>
+    <color name="cardViewGrayText">#414141</color>
+    <color name="whiteGray">#eee</color>
+    <color name="grayDevider">#dfdfdf</color>
+    <color name="darkBlue">#0066b2</color>
+
+    <color name="orderBlue">#1986EF</color>
+    <color name="orderYellow">#EFEF4C</color>
+    <color name="orderRed">#ef4c4c</color>
+    <color name="orderGreen">#1BAF3B</color>
+    <color name="orderDarkYellow">#D8A019</color>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/small"
+                    android:layout_gravity="center">
+
+                    <com.jdkgroup.customviews.CircleImageView
+                        android:id="@+id/cvProfileEdit"
+                        android:layout_width="@dimen/dimen_profile_edit"
+                        android:layout_height="@dimen/dimen_profile_edit"
+                        android:layout_gravity="top"
+                        android:padding="@dimen/small"
+                        app:srcCompat="@drawable/profile_placeholder" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/ivProfileEdit"
+                        android:layout_width="@dimen/hugeSmall"
+                        android:padding="@dimen/small"
+                        android:layout_margin="@dimen/small"
+                        android:layout_height="@dimen/hugeSmall"
+                        android:layout_alignRight="@+id/cvProfileEdit"
+                        android:gravity="right"
+                        app:srcCompat="@mipmap/ic_profile_edit" />
+                </RelativeLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/appTvForgotPassword"
+                    style="@style/styleTextViewMedium"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/small"
+                    android:textStyle="bold"
+                    android:text="@string/hint_username" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/large">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/appEdtUserName"
+                        style="@style/styleEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/medium"
+                        android:hint="@string/hint_username"
+                        android:inputType="text" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/style_app_edittext">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/appEdtEmail"
+                            style="@style/styleEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:layout_margin="0dp"
+                            android:background="@null"
+                            android:hint="@string/hint_email"
+                            android:inputType="textEmailAddress" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/appBtnVerifyEmail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/extraLarge"
+                            android:layout_centerVertical="true"
+                            android:ellipsize="end"
+                            android:layout_marginLeft="@dimen/small"
+                            style="@style/ButtonVerifyTheme"
+                            android:text="Verify"
+                            android:padding="@dimen/small"
+                            android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/medium"
+                        android:background="@drawable/style_app_edittext">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/appEditMobile"
+                            style="@style/styleEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:layout_marginBottom="@dimen/medium"
+                            android:background="@null"
+                            android:hint="@string/hint_mobile"
+                            android:inputType="number" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/appBtnVerifyMobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/extraLarge"
+                            android:layout_centerVertical="true"
+                            android:text="Verified"
+                            android:layout_marginLeft="@dimen/small"
+                            style="@style/ButtonVerifiedTheme"
+                            android:layout_alignParentEnd="true"
+                            android:padding="@dimen/small"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

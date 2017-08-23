@@ -1,0 +1,99 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/custom_toolbar" />
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/large">
+
+            <RelativeLayout
+                android:id="@+id/rlCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style_app_edittext">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/appTvCompany"
+                    style="@style/styleSelectTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="@dimen/medium"
+                    android:background="@null"
+                    android:text="@string/select_company" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@id/appIvPasswordShow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/small"
+                    android:src="@drawable/ic_expand_more" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:background="@drawable/style_app_edittext">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/appTvProduct"
+                    style="@style/styleSelectTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="@dimen/medium"
+                    android:layout_toLeftOf="@+id/appIvPasswordShow"
+                    android:background="@null"
+                    android:text="@string/select_product" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@id/appIvPasswordShow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/small"
+                    android:src="@drawable/ic_expand_more" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/appBtnSubmit"
+                style="@style/ButtonTheme"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/huge"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/btn_submit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/bottom_sheet_behavior"/>
+</android.support.design.widget.CoordinatorLayout>
